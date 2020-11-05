@@ -15,7 +15,6 @@ pipeline {
             }
         }
         stage('build and start application') {
-            
             steps {
                 sh label: '', script: 'docker-compose up -d --build --force-recreate'
             }
