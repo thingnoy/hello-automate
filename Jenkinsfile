@@ -30,6 +30,7 @@ pipeline {
                     robot outputPath: 'test/api', unstableThreshold: 100.0
                     sh label: '', script: 'docker-compose down'
                 }
+                
             }
         }
     }
