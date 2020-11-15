@@ -36,6 +36,3 @@
     # cd ../..
     docker-compose down
     ```
-
-    d
-    d
