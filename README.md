@@ -36,5 +36,3 @@
     # cd ../..
     docker-compose down
     ```
-
-dl
